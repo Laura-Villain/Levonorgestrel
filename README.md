@@ -27,4 +27,4 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-[1] [Cicali, B. et al. Quantitative assessment of levonorgestrel binding partner interplay and drug-drug interactions using physiologically based pharmacokinetic modeling. CPT:Pharmacometrics and Systems Pharmacology. *accepted* (2020).]
+[1] Cicali, B. et al. Quantitative assessment of levonorgestrel binding partner interplay and drug-drug interactions using physiologically based pharmacokinetic modeling. CPT:Pharmacometrics and Systems Pharmacology. *accepted* (2020).
