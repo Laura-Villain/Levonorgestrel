@@ -1,9 +1,9 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "Levonogestrel",
+            "Path": "../../Levonogestrel-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -121,13 +121,133 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "Levonogestrel",
+                "Simulation": "Back 1981_Levonorgestrel_IV_0.15 mg",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "Levonogestrel",
+                "Simulation": "Back 1981_Levonorgestrel_IV_0.25 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Back 1987_Levonorgestrel_IV_0.25 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Cicali 2021_Levonorgestrel_IV_0.09 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Humpel 1978_Levonorgestrel_IV_0.03 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Back 1981_Levonorgestrel_PO_0.15 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Back 1987_Levonorgestrel_PO_0.25 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.03 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.03 mg MD 28 days",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.09 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.09 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.27 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Goebelsmann 1986_Levonorgestrel_PO_0.15 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Humpel 1978_Levonorgestrel_PO_0.15 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Johansson 2002_Levonorgestrel_PO_1.5 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Kives 2005_Levonorgestrel_PO_0.5 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Kives 2005_Levonorgestrel_PO_0.75 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Kook 2002_Levonorgestrel_PO_0.75 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Kuhnz 1994_Levonorgestrel_PO_0.125 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Memon 2016_Levonorgestrel_PO_0.15 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Natavio 2019_Levonorgestrel_PO_1.5 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "NovoNordisk 2007_Levonorgestrel_PO_0.15 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Tremblay 2001_Levonorgestrel_PO_0.75 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Humpel 1978_Levonorgestrel_PO_0.03 mg_fed",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Praditpan 2017_Levonorgestrel_PO_1.5 mg",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Levonogestrel",
+                "Simulation": "Praditpan 2017_Levonorgestrel_PO_1.5 mg_fed",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -150,24 +270,198 @@
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
+                                "Project": "Levonogestrel",
+                                "Simulation": "Back 1981_Levonorgestrel_IV_0.15 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Back 1981_Levonorgestrel_IV_0.15 mg + 30 µg EE",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Back 1981_Levonorgestrel_IV_0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Back 1981_Levonorgestrel_IV_0.25 mg + 50 µg EE",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Back 1987_Levonorgestrel_IV_0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Back 1987_Levonorgestrel_IV_0.25 mg + 50 µg EE",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Cicali 2021_Levonorgestrel_IV_0.09 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cicali 2021_Levonorgestrel_IV_0.09 mg",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Humpel 1978_Levonorgestrel_IV_0.03 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Humpel 1978_Levonorgestrel_IV_0.03 mg",
                                 "Color": "#FF0000"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "Oral administration fasted",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
-                                "Color": "#FF0000"
+                                "Project": "Levonogestrel",
+                                "Simulation": "Back 1981_Levonorgestrel_PO_0.15 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Back 1981_Levonorgestrel_PO_0.15 mg + 30 µg EE",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Back 1981_Levonorgestrel_PO_0.25 mg + 50 µg EE",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Back 1981_Levonorgestrel_PO_0.25 mg + 50 µg EE",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Back 1987_Levonorgestrel_PO_0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Back 1987_Levonorgestrel_PO_0.25 mg + 50 µg EE",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.03 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cicali 2021_Levonorgestrel_PO_0.03 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.03 mg MD 28 days",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cicali 2021_Levonorgestrel_PO_0.03 mg MD 28 days",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.09 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cicali 2021_Levonorgestrel_PO_0.09 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Cicali 2021_Levonorgestrel_PO_0.27 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cicali 2021_Levonorgestrel_PO_0.27 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Goebelsmann 1986_Levonorgestrel_PO_0.15 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Goebelsmann 1986_Levonorgestrel_PO_0.15 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Humpel 1978_Levonorgestrel_PO_0.15 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Humpel 1978_Levonorgestrel_PO_0.15 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Johansson 2002_Levonorgestrel_PO_1.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Johansson 2002_Levonorgestrel_PO_1.5 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Kives 2005_Levonorgestrel_PO_0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kives 2005_Levonorgestrel_PO_0.5 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Kives 2005_Levonorgestrel_PO_0.75 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kives 2005_Levonorgestrel_PO_0.75 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Kook 2002_Levonorgestrel_PO_0.75 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kook 2002_Levonorgestrel_PO_0.75 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Kuhnz 1994_Levonorgestrel_PO_0.125 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kuhnz 1994_Levonorgestrel_PO_0.125 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Menon 2016_Levonorgestrel_PO_0.15 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Menon 2016_Levonorgestrel_PO_0.15 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Natavio 2019_Levonorgestrel_PO_1.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Natavio 2019_Levonorgestrel_PO_1.5 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "NovoNordisk 2007_Levonorgestrel_PO_0.15 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "NovoNordisk 2007_Levonorgestrel_PO_0.15 mg",
+                                "Color": "#808080"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Tremblay 2001_Levonorgestrel_PO_0.75 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Tremblay 2001_Levonorgestrel_PO_0.75 mg",
+                                "Color": "#808080"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Oral administration fed",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Humpel 1978_Levonorgestrel_PO_0.03 mg_fed",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Humpel 1978_Levonorgestrel_PO_0.03 mg_fed",
+                                "Color": "#0000CD"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Praditpan 2017_Levonorgestrel_PO_1.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Praditpan 2017_Levonorgestrel_PO_1.5 mg",
+                                "Color": "#0000CD"
+                            },
+                            {
+                                "Project": "Levonogestrel",
+                                "Simulation": "Praditpan 2017_Levonorgestrel_PO_1.5 mg_fed",
+                                "Output": "Organism|PeripheralVenousBlood|Levonogestrel|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Praditpan 2017_Levonorgestrel_PO_1.5 mg_fed",
+                                "Color": "#0000CD"
                             }
                         ]
                     }
@@ -180,15 +474,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "Levonogestrel",
+            "Name": "Levonogestrel",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],
