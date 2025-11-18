@@ -1,11 +1,11 @@
-The PBPK model for COMPOUND was developed and verified with clinical pharmacokinetic data.
+The PBPK model for levonorgestrel was developed and verified with clinical pharmacokinetic data.
 
 The model was evaluated covering data from studies including in particular
 
-* ...
-* ...
+* intravenous administration of levonorgestrel from mg
+* oral administration of levonorgestrel in fasted state from mg and in fed from mg
 
-The model quantifies ...
+The model quantifies metabolism of levonorgestrel by CYP3A4 and considers binding of levonorgestrel to albumin and SHBG.
 
 The next sections show:
 
