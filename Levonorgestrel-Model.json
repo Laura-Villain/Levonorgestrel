@@ -542,10 +542,6 @@
   ],
   "Formulations": [
     {
-      "Name": "IR Dissolved",
-      "FormulationType": "Formulation_Dissolved"
-    },
-    {
       "Name": "Microlut",
       "FormulationType": "Formulation_Tablet_Lint80",
       "Parameters": [
@@ -568,26 +564,6 @@
             "Method": "ParameterIdentification",
             "Description": "Value updated from 'Parameter Identification 7' on 2025-11-06 10:38"
           }
-        },
-        {
-          "Name": "Use as suspension",
-          "Value": 0.0
-        }
-      ]
-    },
-    {
-      "Name": "Plan B One Step",
-      "FormulationType": "Formulation_Tablet_Lint80",
-      "Parameters": [
-        {
-          "Name": "Dissolution time (80% dissolved)",
-          "Value": 180.0,
-          "Unit": "min"
-        },
-        {
-          "Name": "Lag time",
-          "Value": 0.0,
-          "Unit": "min"
         },
         {
           "Name": "Use as suspension",
@@ -636,26 +612,6 @@
         {
           "Name": "Use as suspension",
           "Value": 1.0
-        }
-      ]
-    },
-    {
-      "Name": "EE tablets",
-      "FormulationType": "Formulation_Tablet_Lint80",
-      "Parameters": [
-        {
-          "Name": "Dissolution time (80% dissolved)",
-          "Value": 40.0,
-          "Unit": "min"
-        },
-        {
-          "Name": "Lag time",
-          "Value": 10.0,
-          "Unit": "min"
-        },
-        {
-          "Name": "Use as suspension",
-          "Value": 0.0
         }
       ]
     }
@@ -2367,6 +2323,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2828,6 +2785,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3450,6 +3408,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -6308,6 +6267,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -7235,18 +7195,18 @@
               "MoleculeName": "CYP2C9"
             },
             {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2C9"
+            },
+            {
               "Name": "Total Hepatic Clearance-Parameter identification",
               "SystemicProcessType": "Hepatic"
             },
             {
               "Name": "SHBG-Qi-Gui & Humpel 1990",
               "MoleculeName": "SHBG"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP2C9"
             },
             {
               "Name": "ALB-Bayer report",
