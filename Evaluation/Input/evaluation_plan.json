@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Levonorgestrel",
-            "Path": "../../Levonorgestrel-Model logP adj.json",
+            "Path": "../../Levonorgestrel-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }

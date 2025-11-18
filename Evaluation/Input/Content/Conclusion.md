@@ -1,4 +1,4 @@
-The herein presented PBPK model adequately describes the pharmacokinetics of levonorgestrel in adults.
+The herein presented PBPK model adequately describes the pharmacokinetics of LNG in healthy women.
 
-In particular, it describes kinetic binding of levonorgestrel to albumin and SHBG, as well as metabolism by CYP3A4. Thus, the model is fit for purpose to be applied for the investigation of drug-drug interactions with regard to inhibition of CYP3A4.
+In particular, the current whole-body PBPK model of LNG describes binding of LNG to albumin and SHBG, as well as metabolism by CYP3A4, and accurately captures the PK of LNG in plasma. 
 

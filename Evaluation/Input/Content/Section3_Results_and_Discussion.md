@@ -2,8 +2,8 @@ The PBPK model for levonorgestrel was developed and verified with clinical pharm
 
 The model was evaluated covering data from studies including in particular
 
-* intravenous administration of levonorgestrel from mg
-* oral administration of levonorgestrel in fasted state from mg and in fed from mg
+* intravenous administration of levonorgestrel from 0.03 to 0.25 mg
+* oral administration of levonorgestrel in fasted and fed state from 0.03 to 1.5 mg 
 
 The model quantifies metabolism of levonorgestrel by CYP3A4 and considers binding of levonorgestrel to albumin and SHBG.
 

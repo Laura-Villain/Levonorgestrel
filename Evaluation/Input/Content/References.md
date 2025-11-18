@@ -8,6 +8,8 @@
 
 **Drugbank** Levonorgestrel. https://go.drugbank.com/drugs/DB00367. Accessed 11/03/2025.
 
+**FDA 2017** PlanB (levonorgestrel) tablets, Drug label information, US Food and Drug Administration (2010). https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/021045s016lbl.pdf
+
 **Goebelsmann 1986** Goebelsmann U, Hoffman D, Chiang S, Woutersz T. The relative bioavailability of levonorgestrel and ethinyl estradiol administered as a low-dose combination oral contraceptive. Contraception. 1986 Oct;34(4):341-51. doi: 10.1016/0010-7824(86)90087-9. 
 
 **Humpel 1978** Humpel M, Wendt H, Pommerenke G, Weiss C, Speck U. Investigations of pharmacokinetics of levonorgestrel to specific consideration of a possible first-pass effect in women. Contraception. 1978 Mar;17(3):207-20. doi: 10.1016/0010-7824(78)90012-4. 
