@@ -1,5 +1,5 @@
 # Levonorgestrel-Model
-Whole-body PBPK model of Levonorgestrel as well as ethinyl estradiol 
+Whole-body PBPK model of Levonorgestrel as well as ethinylestradiol 
 
 This repository contains:
 
@@ -10,7 +10,7 @@ This repository contains:
 The present model represents an updated version of the model presented by Cicali *et al.* [[1]](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12572). 
 This levonorgestrel model incorporates metabolism by CYP3A4 and additional hepatic clearance. The current evaluation plan focuses on the performance of the levonorgestrel model in healthy women volunteers
 
-For further information on CYP3A4-mediated drug-drug interactions (DDI) when orally administered either alone or in combination with ethinyl estradiol in healthy and obese women, refer to [[1]](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12572).
+For further information on CYP3A4-mediated drug-drug interactions (DDI) when orally administered either alone or in combination with ethinylestradiol in healthy and obese women, refer to [[1]](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12572).
 
 ### Version information
 PK-Sim Version 12.
@@ -25,8 +25,4 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-<<<<<<< HEAD
-[1] Cicali, B. et al. Quantitative assessment of levonorgestrel binding partner interplay and drug-drug interactions using physiologically based pharmacokinetic modeling. CPT:Pharmacometrics and Systems Pharmacology. *accepted* (2020).
-=======
 [1] [Cicali B, Lingineni K, Cristofoletti R, Wendl T, Hoechel J, Wiesinger H, Chaturvedula A, Vozmediano V, Schmidt S. Quantitative Assessment of Levonorgestrel Binding Partner Interplay and Drug-Drug Interactions Using Physiologically Based Pharmacokinetic Modeling. CPT Pharmacometrics Syst Pharmacol. 2021 Jan;10(1):48-58. doi: 10.1002/psp4.12572.](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12572).
->>>>>>> c897e3bc41afc45857f279bfae16fd02832082f3
