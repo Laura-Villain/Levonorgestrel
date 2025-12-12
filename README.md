@@ -1,5 +1,5 @@
 # Levonorgestrel-Model
-Whole-body PBPK model of Levonorgestrel as well as ethinylestradiol 
+Whole-body PBPK model of Levonorgestrel 
 
 This repository contains:
 
