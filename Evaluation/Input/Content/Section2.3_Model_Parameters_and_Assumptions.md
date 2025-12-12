@@ -9,7 +9,7 @@ The base disposition model developed with data after 0.09 mg IV levonogestrel ad
 Unbound fraction (fu) was described with a specific binding process of levonogestrel to albumin and sex-hormone binding globulin (SHBG) as binding partners. Protein binding parameters (`Kd` and `Koff`) for albumin and SHBG were estimated by optimizing the model to subject-level data following IV administration of 0.09 mg of levonogestrel-only contraceptive to 18 women ([Cicali 2021](#main-references)).
 
 Systemic levels of albumin and SHBG were based on the built-in expressed sequence tags database and on the clinical results
-by [Kuhnz 1994](#main-references) 
+by [Kuhnz 1994](#main-references).
 
 After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by `Rodgers and Rowland` and cellular permeability calculation by `PK-Sim Standard`. 
 
