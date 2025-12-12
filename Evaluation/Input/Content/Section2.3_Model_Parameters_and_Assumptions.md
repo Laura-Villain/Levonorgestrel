@@ -23,7 +23,7 @@ CYP3A4 inhibitor telithromycin (i.e., net levonogestrel fraction metabolized by 
 In addition to the CYP3A4 metabolism, total hepatic clearance was implented in the model as an additional elimination pathway
 Both `CYP3A4 CLspec/[enzyme]` and `Plasma Clearance` were optimized. 
 
-### Obserser for Levonogestrel concentrations <a id="model-parameters-and-assumptions-parameter-observer"></a>
+### Observer for Levonogestrel concentrations <a id="model-parameters-and-assumptions-parameter-observer"></a>
 
 LNG concentrations in peripheral venous blood plasma at any specific time points were obtained by adding the simulated concentrations of LNG, LNG bound to SHBG, and LNG bound to albumin, at the corresponding time points to generate the LNG PK profiles, according to the following formula:
 
