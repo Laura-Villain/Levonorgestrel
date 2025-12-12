@@ -36,9 +36,9 @@ This is the result of the final parameter identification.
 | -------------------- | --------------- | ---- |
 | `logP` | 
 | `CYP3A4 CLspec/[enzyme]` |     
-| `Specific Clearance` |      
-| `Kd` |         
-| `Koff` |    
+| `Plasma Clearance` |      
+| `Kd Albumin` |         
+| `koff Albumin` |    
 | `Dissolution T80%` |  
 | `Dissolution T50%` |  
 | `Dissolution shape` |  
