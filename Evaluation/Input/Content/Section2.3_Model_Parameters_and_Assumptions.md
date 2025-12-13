@@ -1,6 +1,8 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
-`logP` (as lipophilicity), `specific intestinal permeability`, and dissolution-related parameters were implemented with Lint80 or Weibull dissolution parameters depending on the formulation used in each study (`T80%` ot `T50%`, `dissolution shape`, `dissolution time` and/or `lag time`) were optimized by comparing model prediction with observed plasma PK data following oral administration.
+LNG administration was further expanded by incorporating
+aqueous solubility, intestinal permeability, and drug dissolution
+to simulate LNG exposure after oral administration. The permeability of LNG (`specific intestinal permeability`), and dissolution-related parameters were optimized by comparing model prediction with observed plasma PK data following oral administration. Dissolution was implemented with Lint80 or Weibull dissolution parameters depending on the formulation used in each study (`T80%` ot `T50%`, `dissolution shape`, `dissolution time` and/or `lag time`).
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
