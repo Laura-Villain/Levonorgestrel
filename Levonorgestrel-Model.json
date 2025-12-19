@@ -7145,6 +7145,11 @@
           "Scaling": "Log",
           "Path": "Johansson 2002_Levonorgestrel_PO_1.5 mg|Organism|PeripheralVenousBlood|Levonorgestrel|Plasma Sum LNG Species (Peripheral Venous Blood)",
           "ObservedData": "Johansson 2002_Levonorgestrel_PO_1.5 mg"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Johansson 2002_Levonorgestrel_PO_1.5 mg|Organism|VenousBlood|Plasma|SHBG|Concentration in container",
+          "ObservedData": "Johansson 2002_SHBG Levelsl_PO_1.5 mg"
         }
       ],
       "Individual": "Woman",
