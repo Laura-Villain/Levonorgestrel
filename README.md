@@ -1,5 +1,5 @@
 # Levonorgestrel-Model
-Whole-body PBPK model of Levonorgestrel 
+Whole-body PBPK model of Levonorgestrel.
 
 ## Repository files
 
@@ -13,9 +13,6 @@ The present model represents an updated version of the model presented by Cicali
 This levonorgestrel model incorporates metabolism by CYP3A4 and additional hepatic clearance. The current evaluation plan focuses on the performance of the levonorgestrel model in healthy female volunteers
 
 For further information on CYP3A4-mediated drug-drug interactions (DDI) when orally administered either alone or in combination with ethinylestradiol in healthy and obese women, refer to [[1]](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12572).
-
-### Version information
-PK-Sim Version 12.
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists, etc) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
