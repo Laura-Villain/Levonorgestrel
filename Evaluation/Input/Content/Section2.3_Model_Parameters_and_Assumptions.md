@@ -6,8 +6,6 @@ to simulate LNG exposure after oral administration. The permeability of LNG (`sp
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-The base disposition model developed with data after 0.09 mg IV levonogestrel administration was further expanded by incorporating aqueous solubility, intestinal permeability, and drug dissolution to simulate LNG exposure after oral administration.
-
 Unbound fraction (fu) was described with a specific binding process of levonogestrel to albumin and sex-hormone binding globulin (SHBG) as binding partners. Protein binding parameters (`Kd` and `Koff`) for albumin and SHBG were estimated by optimizing the model to subject-level data following IV administration of 0.09 mg of levonogestrel-only contraceptive to 18 women ([Cicali 2021](#main-references)).
 
 Systemic levels of albumin and SHBG were based on the built-in expressed sequence tags database and on the clinical results
