@@ -1403,6 +1403,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3203,6 +3204,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Cicali 2021_Levonorgestrel_PO_0.03 mg MD 28 days",
           "OriginText": "Levonorgestrel-Model+others\nCicali 2021_Levonorgestrel_PO_0.03 mg MD 28 days\n2025-11-17 10:12"
         }
       ]
